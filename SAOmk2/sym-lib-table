@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name un1eet_library)(type Legacy)(uri ${KIPRJMOD}/un1eet_library.lib)(options "")(descr ""))
+)

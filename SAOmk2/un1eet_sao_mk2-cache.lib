@@ -1,0 +1,69 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# badgelife_shitty_addon_v169bis_Badgelife_sao_connector_v169bis
+#
+DEF badgelife_shitty_addon_v169bis_Badgelife_sao_connector_v169bis X 0 40 Y Y 1 F N
+F0 "X" 0 0 50 H V C CNN
+F1 "badgelife_shitty_addon_v169bis_Badgelife_sao_connector_v169bis" 0 800 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+S -300 350 300 -350 0 1 0 N
+X VCC 1 -200 550 200 D 50 50 1 1 I
+X GND 2 -200 -550 200 U 50 50 1 1 I
+X SDA 3 0 550 200 D 50 50 1 1 I
+X SCL 4 0 -550 200 U 50 50 1 1 I
+X GPIO1 5 200 550 200 D 50 50 1 1 I
+X GPIO2 6 200 -550 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# un1eet_library_exposed_pads
+#
+DEF un1eet_library_exposed_pads U 0 40 Y Y 1 F N
+F0 "U" 350 450 50 H V C CNN
+F1 "un1eet_library_exposed_pads" 350 350 50 H V C CNN
+F2 "" 50 650 50 H I C CNN
+F3 "" 50 650 50 H I C CNN
+DRAW
+X VCC 1 -300 650 100 R 50 50 1 1 I
+X Rout 2 -300 550 100 R 50 50 1 1 I
+X LEDVCC 3 -300 450 100 R 50 50 1 1 I
+X GND 4 -300 350 100 R 50 50 1 1 I
+X GND 5 -300 250 100 R 50 50 1 1 I
+X SCL 6 -300 150 100 R 50 50 1 1 I
+X SDA 7 -300 50 100 R 50 50 1 1 I
+X GPIO2 8 -300 -50 100 R 50 50 1 1 I
+X GPIO1 9 -300 -150 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
